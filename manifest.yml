@@ -1,0 +1,8 @@
+---
+# Manifest for deploying application on CloudFoundry
+applications:
+- name: cf-eval-terms
+  memory: 100m
+  #host: 
+  buildpack: https://github.com/cloudfoundry-community/nginx-buildpack.git
+  instances: 1
